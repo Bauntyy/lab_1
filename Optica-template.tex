@@ -34,7 +34,7 @@ Motion Silhouettes Image (MSI) is a gray-level image where the pixel intensity i
 MSI(x,y,t) = 
 \begin{cases}
 255 & \text{if } I(x,y,t) = 1\\
-max(o,MSI(x,y,t-1) - 1) & \text{otherwise}
+\text{max($o, MSI(x,y,t-1)-1)$}
 \end{cases}
 \label{eq:1}
 \end{equation}
